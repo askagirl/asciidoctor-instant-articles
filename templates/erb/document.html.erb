@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link href="https://fb.cloudhomez.com/articles/#{article.id}" rel="canonical" />
-    <title>article.title</title>
+    <title><%= doctitle(:sanitize => true) || (attr 'untitled-label') %></title>
     <meta content="default" property="fb:article_style" />
   </head>
   <body>
@@ -11,7 +11,7 @@
       <header>
         == article.header
       </header>
-      == article.main
+      <%= content %>
       <footer>
         == article.footer
       </footer>
