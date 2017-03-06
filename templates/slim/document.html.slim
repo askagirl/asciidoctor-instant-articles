@@ -1,0 +1,21 @@
+doctype 5
+html lang=(attr :lang, 'en' unless attr? :nolang)
+  head
+    meta charset="utf-8"
+    link href="https://fb.cloudhomez.com/articles/article.id" rel="canonical"
+    title=(doctitle(sanitize: true, use_fallback: true) || (attr 'untitled-label'))
+    meta content="default" property="fb:article_style"
+  body
+    article
+      header
+        figure
+          img src="https://fb.cloudhomez.com/talk-bubble-1964578_1920.jpg" alt="" title="" layout="responsive" width="720" height="480"
+        address=(attr :author)
+        time class="op-modified" datetime="2017-02-27T23:52:05-08:00" 2017-02-27T23:52:05-08:00
+        time class="op-published" datetime="2017-02-27T23:52:05-08:00" 2017-02-27T23:52:05-08:00
+        | article.header
+      == content
+      footer
+        aside We left aligned the <b>footer, credits and copyright</b> and adjusted the typeface to Helvetica Neue Light and the color to grey.
+        small © Copyright
+        | article.footer

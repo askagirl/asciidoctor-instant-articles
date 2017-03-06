@@ -20,7 +20,7 @@ module Asciidoctor
         extra_slim_opts = { include_dirs: include_dirs }
         extra_slim_opts.update SlimPrettyOpts if Set.new(%w(1 true)).include?(ENV['SLIM_PRETTY'].to_s)
         engine_opts[:slim] = (engine_opts.key? :slim) ? (extra_slim_opts.merge engine_opts[:slim]) : extra_slim_opts
-        template_opts = opts.merge htmlsyntax: 'html', template_engine: 'erb', template_engine_options: engine_opts
+        template_opts = opts.merge htmlsyntax: 'html', template_engine: 'slim', template_engine_options: engine_opts
         template_converter = ::Asciidoctor::Converter::TemplateConverter.new backend, template_dirs, template_opts
         html5_converter = ::Asciidoctor::Converter::Html5Converter.new backend, opts
         super backend, template_converter, html5_converter
