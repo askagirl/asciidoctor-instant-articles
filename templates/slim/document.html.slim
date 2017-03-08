@@ -11,7 +11,7 @@ html lang=(attr :lang, 'en' unless attr? :nolang)
         figure
           img src="https://fb.cloudhomez.com/talk-bubble-1964578_1920.jpg" alt="" title="" layout="responsive" width="720" height="480"
         address=(attr :author)
-        time class="op-modified" datetime="2017-02-27T23:52:05-08:00" 2017-02-27T23:52:05-08:00
+        time class="op-modified" datetime="#{attr :docdatetime}" = attr :docdatetime
         time class="op-published" datetime="2017-02-27T23:52:05-08:00" 2017-02-27T23:52:05-08:00
         | article.header
       == content

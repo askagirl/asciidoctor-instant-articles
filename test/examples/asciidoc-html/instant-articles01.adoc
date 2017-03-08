@@ -1,5 +1,16 @@
 = 구전성을 그로스 해킹하기
 Spinoff <spinoff@spinoff.life>
+v1.0, 2017-03-06 19:26:06 GMT+0000: First incarnation
+:revdate: 2017-03-07
+:revdatetime: 2017-03-07 19:26:06 GMT+0000
+
+This journey begins...
+
+== About the Author
+
+You can contact {author} at {email}.
+{firstname} loves to hear from other chroniclers.
+docdate: {docdate} docdatetime: {docdatetime} revdate: {revdate} revdatetime: {revdatetime}
 
 드롭박스의 창립자들은 멋진 데모 동영상과 소셜미디어 전략으로 초기 이용자 집단을 끌어들인 이후에 선택해야 할 것이 있었다. 더 많은 영상과 더 많은 소셜미디어와 같이 똑같은 방법으로 지속적인 성장을 시도해 볼 수도 있었고, 전형적인 마케팅 교훈을 따라 브랜드를 대폭 키우기 위해서 광고를 하는 대안도 있었다. 그들은 후자를 선택했는데 단지 233달러에서 388달러 정도를 광고에 지출해야 한 명의 가입자를 만들 수 있다는 사실을 알아내기 위한 정도로만 광고를 했다.88 드롭박스 팀은 그로스 엔진을 찾기 위해 14개월 이상의 사투를 거친 끝에 신의 계시라고 부를 만한 결과에 도달했다. 유명한 그로스 해커인 션 엘리스와 대화를 나누면서 얻은 아이디어를 토대로 드롭박스는 스타트업 세계에서 가장 효과적이면서 구전 효과가 강한 추천 프로그램 중 하나를 만들었다.
 
