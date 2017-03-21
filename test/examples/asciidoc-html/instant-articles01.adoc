@@ -1,8 +1,9 @@
-= 구전성을 그로스 해킹하기
+= Marvel Comics
 Spinoff <spinoff@spinoff.life>
 v1.0, 2017-03-06 19:26:06 GMT+0000: First incarnation
 :revdate: 2017-03-07
 :revdatetime: 2017-03-07 19:26:06 GMT+0000
+:header_image: http://vignette3.wikia.nocookie.net/vsbattles/images/5/51/Marvel_characters.jpg
 
 This journey begins...
 
