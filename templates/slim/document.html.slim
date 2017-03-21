@@ -2,6 +2,7 @@ doctype 5
 html lang=(attr :lang, 'en' unless attr? :nolang)
   head
     meta charset="utf-8"
+    meta property="fb:use_automatic_ad_placement" content="true"
     link href="https://fb.cloudhomez.com/articles/article.id" rel="canonical"
     title=(doctitle(sanitize: true, use_fallback: true) || (attr 'untitled-label'))
     meta content="default" property="fb:article_style"
